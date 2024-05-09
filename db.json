@@ -1,0 +1,318 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "shivani",
+      "email": "shivani@gmail.com",
+      "password": "abc",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "john",
+      "email": "john@example.com",
+      "password": "def",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "name": "emily",
+      "email": "emily@yahoo.com",
+      "password": "ghi",
+      "isAdmin": true
+    },
+    {
+      "id": 4,
+      "name": "alex",
+      "email": "alex@hotmail.com",
+      "password": "jkl",
+      "isAdmin": false
+    },
+    {
+      "id": 5,
+      "name": "sara",
+      "email": "sara@outlook.com",
+      "password": "mno",
+      "isAdmin": true
+    },
+    {
+      "id": 6,
+      "name": "adam",
+      "email": "adam@gmail.com",
+      "password": "pqr",
+      "isAdmin": false
+    }
+  ],
+"questions": [
+    {
+      "id": 1,
+      "question": "1. What is the smallest building block of a React application?",
+      "option1": "Class component",
+      "option2": "HTML element",
+      "option3": "Functional component",
+      "option4": "JSX element",
+      "ans": 3
+    },
+    {
+      "id": 2,
+      "question": "2. Which of the following lifecycle methods is invoked immediately after a component is inserted into the DOM?",
+      "option1": "componentDidMount()",
+      "option2": "componentWillMount()",
+      "option3": "componentDidUpdate()",
+      "option4": "componentWillUpdate()",
+      "ans": 1
+    },
+    {
+      "id": 3,
+      "question": "3. What method is used to change the state of a component in React?",
+      "option1": "setState()",
+      "option2": "changeState()",
+      "option3": "updateState()",
+      "option4": "modifyState()",
+      "ans": 1
+    },
+    {
+      "id": 4,
+      "question": "4. In React, what is used to pass data to a component from outside?",
+      "option1": "setState()",
+      "option2": "props",
+      "option3": "getInitialState()",
+      "option4": "state",
+      "ans": 2
+    },
+    {
+      "id": 5,
+      "question": "5. What is the purpose of the key attribute in React?",
+      "option1": "To uniquely identify elements in a list",
+      "option2": "To style components",
+      "option3": "To define component hierarchy",
+      "option4": "To declare component properties",
+      "ans": 1
+    },
+    {
+      "id": 6,
+      "question": "6. Which of the following is not a valid way to define props in a React component?",
+      "option1": "Using defaultProps",
+      "option2": "Using propTypes",
+      "option3": "Using getDefaultProps",
+      "option4": "Using propType",
+      "ans": 4
+    },
+    {
+      "id": 7,
+      "question": "7. What does JSX stand for?",
+      "option1": "JavaScript XML",
+      "option2": "JavaScript Extensible",
+      "option3": "JavaScript Extension",
+      "option4": "JavaScript XHR",
+      "ans": 1
+    },
+    {
+      "id": 8,
+      "question": "8. In React, what is used to render multiple components?",
+      "option1": "ReactDOM.render()",
+      "option2": "React.renderComponent()",
+      "option3": "React.render()",
+      "option4": "ReactDOM.renderComponent()",
+      "ans": 3
+    },
+    {
+      "id": 9,
+      "question": "9. Which method in a React component is responsible for rendering the component?",
+      "option1": "render()",
+      "option2": "componentDidMount()",
+      "option3": "componentWillUnmount()",
+      "option4": "componentWillRender()",
+      "ans": 1
+    },
+    {
+      "id": 10,
+      "question": "10. What is the purpose of React Router?",
+      "option1": "To handle routing in React applications",
+      "option2": "To manage component state",
+      "option3": "To handle AJAX requests",
+      "option4": "To provide CSS styling",
+      "ans": 1
+    },
+    {
+      "id": 11,
+      "question": "11. What is the recommended way to fetch data in a React component?",
+      "option1": "Using AJAX requests in componentDidMount()",
+      "option2": "Using AJAX requests in render()",
+      "option3": "Using AJAX requests in componentWillMount()",
+      "option4": "Using AJAX requests in componentDidUpdate()",
+      "ans": 1
+    },
+    {
+      "id": 12,
+      "question": "12. Which method is called when a component is removed from the DOM?",
+      "option1": "componentWillUnmount()",
+      "option2": "componentDidUnmount()",
+      "option3": "componentWillUpdate()",
+      "option4": "componentDidUpdate()",
+      "ans": 1
+    },
+    {
+      "id": 13,
+      "question": "13. In React, what is used to handle events?",
+      "option1": "EventListeners",
+      "option2": "EventHandlers",
+      "option3": "Events",
+      "option4": "EventListeners and EventHandlers",
+      "ans": 4
+    },
+    {
+      "id": 14,
+      "question": "14. What is the purpose of React.Fragment?",
+      "option1": "To create a new React component",
+      "option2": "To group multiple elements without adding extra nodes to the DOM",
+      "option3": "To import external libraries in React",
+      "option4": "To define React component hierarchy",
+      "ans": 2
+    },
+    {
+      "id": 15,
+      "question": "15. What is the significance of PureComponent in React?",
+      "option1": "It ensures that a component re-renders only when its props or state change",
+      "option2": "It is used for routing in React applications",
+      "option3": "It is a higher-order component for handling side effects",
+      "option4": "It ensures that a component re-renders whenever its parent component re-renders",
+      "ans": 1
+    },
+    {
+      "id": 16,
+      "question": "16. What is the main difference between props and state in React?",
+      "option1": "Props are immutable and state is mutable",
+      "option2": "Props are mutable and state is immutable",
+      "option3": "Props are passed from parent to child components, whereas state is managed within the component",
+      "option4": "Props are managed within the component, whereas state is passed from parent to child components",
+      "ans": 3
+    },
+    {
+      "id": 17,
+      "question": "17. How can you access the state of a component from inside the component?",
+      "option1": "Using this.state",
+      "option2": "Using this.getState()",
+      "option3": "Using getState()",
+      "option4": "Using state",
+      "ans": 1
+    },
+    {
+      "id": 18,
+      "question": "18. What is React.createClass()?",
+      "option1": "A method used to define a React component",
+      "option2": "A built-in React component",
+      "option3": "A function used to create React elements",
+      "option4": "An alternative syntax for creating React components",
+      "ans": 4
+    },
+    {
+      "id": 19,
+      "question": "19. What is the purpose of the shouldComponentUpdate() method in React?",
+      "option1": "To check if a component should re-render or not",
+      "option2": "To update the component's state",
+      "option3": "To check if a component should be mounted or not",
+      "option4": "To perform cleanup before a component is removed from the DOM",
+      "ans": 1
+    },
+    {
+      "id": 20,
+      "question": "20. What is the purpose of propTypes in React?",
+      "option1": "To define the type of props accepted by a component",
+      "option2": "To define the default props for a component",
+      "option3": "To define the initial state of a component",
+      "option4": "To define the lifecycle methods of a component",
+      "ans": 1
+    },
+    {
+      "id": 21,
+      "question": "21. What is the purpose of defaultProps in React?",
+      "option1": "To define the default state of a component",
+      "option2": "To define the default props for a component",
+      "option3": "To define the lifecycle methods of a component",
+      "option4": "To define the type of props accepted by a component",
+      "ans": 2
+    },
+    {
+      "id": 22,
+      "question": "22. What is the purpose of the componentDidMount() method in React?",
+      "option1": "To update the component's state",
+      "option2": "To perform cleanup before a component is removed from the DOM",
+      "option3": "To fetch data from an external source after the component is mounted",
+      "option4": "To check if a component should re-render or not",
+      "ans": 3
+    },
+    {
+      "id": 23,
+      "question": "23. What is the purpose of the componentWillUnmount() method in React?",
+      "option1": "To update the component's state",
+      "option2": "To perform cleanup before a component is removed from the DOM",
+      "option3": "To fetch data from an external source after the component is mounted",
+      "option4": "To check if a component should re-render or not",
+      "ans": 2
+    },
+    {
+      "id": 24,
+      "question": "24. What is the purpose of the setState() method in React?",
+      "option1": "To update the component's state and re-render the component",
+      "option2": "To define the initial state of a component",
+      "option3": "To check if a component should re-render or not",
+      "option4": "To perform cleanup before a component is removed from the DOM",
+      "ans": 1
+    },
+    {
+      "id": 25,
+      "question": "25. What is the purpose of React.memo()?",
+      "option1": "To memoize the rendering of a component",
+      "option2": "To create a higher-order component",
+      "option3": "To prevent a component from re-rendering unnecessarily",
+      "option4": "To manage component state",
+      "ans": 1
+    },
+    {
+      "id": 26,
+      "question": "26. What is the purpose of the useContext() hook in React?",
+      "option1": "To access the context of a React component",
+      "option2": "To manage component state",
+      "option3": "To memoize the rendering of a component",
+      "option4": "To create a higher-order component",
+      "ans": 1
+    },
+    {
+      "id": 27,
+      "question": "27. What is the purpose of the useCallback() hook in React?",
+      "option1": "To memoize the rendering of a component",
+      "option2": "To access the context of a React component",
+      "option3": "To create a higher-order component",
+      "option4": "To memoize functions",
+      "ans": 4
+    },
+    {
+      "id": 28,
+      "question": "28. What is the purpose of the useEffect() hook in React?",
+      "option1": "To memoize the rendering of a component",
+      "option2": "To access the context of a React component",
+      "option3": "To perform side effects in a functional component",
+      "option4": "To create a higher-order component",
+      "ans": 3
+    },
+    {
+      "id": 29,
+      "question": "29. What is the purpose of the useRef() hook in React?",
+      "option1": "To access the context of a React component",
+      "option2": "To create a reference to a DOM element or a value that persists between renders",
+      "option3": "To memoize functions",
+      "option4": "To memoize the rendering of a component",
+      "ans": 2
+    },
+    {
+      "id": 30,
+      "question": "30. What is the purpose of the useMemo() hook in React?",
+      "option1": "To memoize the rendering of a component",
+      "option2": "To access the context of a React component",
+      "option3": "To memoize functions",
+      "option4": "To memoize expensive computations",
+      "ans": 4
+    }
+  ]
+}
